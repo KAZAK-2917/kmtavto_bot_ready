@@ -11,7 +11,7 @@ dp = Dispatcher(bot)
 @dp.message_handler(commands=['start'])
 async def start(message: types.Message):
     await message.answer(
-        "Привет! Я — бот КМТ 🚗\n"
+        "Привет! Я — бот КМТAVTO 🚗\n"
         "Отправьте, пожалуйста, заявку в формате:\n\n"
         "1. ФИО\n"
         "2. Марка, модель и год авто\n"
